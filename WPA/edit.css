@@ -1,0 +1,107 @@
+body {
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    background-image: linear-gradient(to bottom, #8DDFCB, #FFC7EA, #FFCF96, #EDB7ED);
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    color: #F9E400;
+    font-size: 40px;
+    text-shadow: 2px 2px #E85C0D;
+}
+
+form {
+    background-color: #ffffff; /* White background for the form */
+    border-radius: 25px; /* More rounded corners for the form */
+    padding: 30px; /* Increased padding for a cozy feel */
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2); /* Soft shadow for depth */
+    max-width: 90%; /* Allow form to grow based on screen size */
+    width: 80%; /* Adjusted width for the form */
+    margin: 20px auto;
+    text-align: center; /* Center align text */
+    overflow: hidden; /* Ensure no overflow */
+}
+
+label {
+    display: block;
+    margin-bottom: 10px; /* Spacing between label and input */
+    color: #555; /* Slightly lighter than header color */
+    font-weight: bold; /* Make labels bold */
+}
+
+input[type="datetime-local"],
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 80%; /* Reduced width of inputs */
+    padding: 12px; /* Increased spacing inside the inputs */
+    border: 2px solid #FF69B4; /* Hot pink border */
+    border-radius: 8px; /* More rounded corners */
+    margin-bottom: 20px; /* Spacing between inputs */
+    font-size: 16px; /* Larger font for inputs */
+    transition: border 0.3s ease; /* Smooth transition for focus */
+}
+
+input[type="datetime-local"]:focus,
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus {
+    border-color: #FF1493; /* Darker hot pink on focus */
+    outline: none; /* Remove default outline */
+}
+
+input[type="submit"],
+input[type="button"] { /* Style for buttons */
+    background-color: #FF69B4; /* Hot pink background */
+    color: white; /* White text */
+    padding: 12px; /* Spacing inside the button */
+    border: none; /* No border */
+    border-radius: 8px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    font-size: 18px; /* Larger font for button */
+    transition: background-color 0.3s ease; /* Smooth transition */
+    margin: 5px; /* Add margin between buttons */
+}
+
+input[type="submit"]:hover,
+input[type="button"]:hover {
+    background-color: #FF1493; /* Darker hot pink on hover */
+}
+
+a {
+    display: inline-block; /* Make link a block to add padding */
+    margin-top: 15px; /* Spacing above the link */
+    color: #FF69B4; /* Hot pink link color */
+    text-decoration: none; /* Remove underline */
+    font-weight: bold; /* Make links bold */
+}
+
+a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+/* Optional: Add a flex container to align buttons side by side */
+.button-container {
+    display: flex;
+    justify-content: center; /* Center the buttons */
+    gap: 10px; /* Space between buttons */
+    margin-top: 20px; /* Add margin above the buttons */
+}
+select {
+    width: 85%; /* Same width as input fields */
+    padding: 12px; /* Same padding as input fields */
+    border: 2px solid #FF69B4; /* Same border as input fields */
+    border-radius: 8px; /* Same border radius as input fields */
+    margin-bottom: 20px; /* Same margin as input fields */
+    font-size: 16px; /* Same font size as input fields */
+    transition: border 0.3s ease; /* Same transition effect for focus */
+}
+
+select:focus {
+    border-color: #FF1493; /* Same focus color as input fields */
+    outline: none; /* Remove default outline */
+}

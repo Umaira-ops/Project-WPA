@@ -1,0 +1,130 @@
+body
+{
+    font-family: "poppins", sans-serif;
+    font-size: 18px;
+    background-image: linear-gradient(to bottom,#8DDFCB,#FFC7EA,#FFCF96,#EDB7ED);
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+}
+h1
+{
+    text-align: center;
+    color: #F9E400;
+    font-size: 40px;
+    text-shadow: 2px 2px #E85C0D;
+}
+h2
+{
+  text-align: center;
+  font-size: 25px;
+}
+h3
+{
+  text-align: center;
+  font-size: 18px;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #FFFED3;
+  display: flex;
+  justify-content: space-between;
+}
+
+ul li {
+  display: inline;
+}
+
+ul li a {
+  display: block;
+  color: #FFAD60;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul li a:hover {
+  background-color: #8B322C;
+}
+
+.split {
+  margin-left: auto;
+}
+
+.container {
+    width: 90%;
+    max-width: 800px; /* Wider max width */
+    margin: 50px auto;
+    padding: 40px; /* More padding */
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+
+.button-container {
+    margin-bottom: 20px;
+}
+
+.emotion-btn {
+    padding: 15px 20px; /* Increase padding for height and width */
+    margin: 5px;
+    background-color: hotpink;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px; /* Increase font size */
+}
+
+.emotion-btn:hover {
+    background-color: #ff69b4;
+}
+
+#prompt {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#response {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+#submitResponse {
+    margin-top: 10px;
+    padding: 15px 30px; /* Increase padding for height and width */
+    background-color: lightgreen;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px; /* Increase font size */
+}
+
+#submitResponse:hover {
+    background-color: green;
+    color: white;
+}
+
+#resetBtn {
+    margin-top: 20px;
+    padding: 15px 30px; /* Increase padding for height and width */
+    background-color: lightgray;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px; /* Increase font size */
+}
+
+#resetBtn:hover {
+    background-color: darkgray;
+}

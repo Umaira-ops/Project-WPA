@@ -1,0 +1,133 @@
+body
+{
+    font-family: "poppins", sans-serif;
+    font-size: 18px;
+    background-image: linear-gradient(to bottom,#8DDFCB,#FFC7EA,#FFCF96,#EDB7ED);
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+}
+h1
+{
+    text-align: center;
+    color: #F9E400;
+    font-size: 40px;
+    text-shadow: 2px 2px #E85C0D;
+}
+h2
+{
+  text-align: center;
+  font-size: 25px;
+}
+h3
+{
+  text-align: center;
+  font-size: 18px;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #FFFED3;
+  display: flex;
+  justify-content: space-between;
+}
+
+ul li {
+  display: inline;
+}
+
+ul li a {
+  display: block;
+  color: #FFAD60;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul li a:hover {
+  background-color: #8B322C;
+}
+
+.split {
+  margin-left: auto;
+}
+
+.info-container
+{
+background-color: #fff;
+padding: 20px 20px 20px 20px;
+border-radius: 5px;
+box-shadow: 0 0 30px rgb(7, 6, 6);
+width: 500px;
+text-align: justify;
+font-size: 16px;
+margin-left: 10%;
+margin-top: 4%;
+}
+.info-container h1
+{
+margin-bottom: 20px;
+}
+img
+{
+  width: 380px;
+  height: auto;
+  margin: 4% 15%;
+  float: right;
+  box-shadow: 0 0 30px rgb(7, 6, 6);
+}
+.split
+{
+  float: right;
+} 
+table
+{
+  border-collapse: 2px;
+  width: 90%;
+  color: #588c7e;
+  font-family: "poppins", sans-serif;
+  font-size: 20px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  }
+  th{
+    background-color: #588c7e;
+    color: white;
+    padding: 20px;
+  }
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  td{
+    padding: 20px;
+  }
+  small-table {
+    font-size: 0.8em; /* Decrease font size */
+    margin: 0 auto; /* Center the table */
+    border-collapse: collapse; /* Make borders collapse for a cleaner look */
+}
+
+.small-table th, .small-table td {
+    padding: 5px; /* Adjust padding */
+    background-color: #f2f2f2;
+}
+
+.small-table th {
+  color: white;
+  background-color: #588c7e;
+}
+form {
+  background-color: #fff; /* White background for the form */
+  border-radius: 20px; /* Rounded corners for the form */
+  padding: 20px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Soft shadow for depth */
+  max-width: 60%; /* Allow form to grow based on screen size */
+  width: 100%; 
+  margin: 20px auto;
+  text-align: center; /* Center align text */
+  overflow: hidden; /* Ensure no overflow */
+}
+
